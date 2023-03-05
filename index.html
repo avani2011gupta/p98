@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Project 98</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link href="style.css" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+
+    </head>
+    
+    <body>
+        <center>
+            <h1><b>Collage Web App</b></h1>
+            <hr>
+            <h4>Please click on "Allow" as soon as the pop up appears. After you have spoken the command.
+            </h4>
+            <h3><b>Say "Take Selfie" to take your selfie and make a collage out of your pictures.
+            </b></h3>
+
+            <button class="btn btn-info" id="startbtn" onclick="save()">Start</button>
+            
+            <h4>Press the Start Button</h4>
+            <label>Your Webcam:</label>
+            <br><br>
+
+            <div id="camera"></div>
+
+            <label>Selfies will diaplay here:</label>
+            <br><br>
+
+            <div id="resultShow">
+
+                <div id="result1">
+                    <img src="watercolour-flowers-5188030__340.webp">
+                </div>
+
+                <div id="result2">
+                    <img style="width:30%;" src="l-intro-1669749203.jpg">
+                </div>
+
+                <div id="result3"><img style="width:30%;" src="greater-flamingo-pair-heart-shape-tony-wu.jpg"></div>
+
+            </div>
+            </center> 
+        </body>
+    </html>
